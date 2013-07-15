@@ -1,5 +1,3 @@
-
-
 #!/usr/bin/python
 # Name: Anna Trostnikova
 # Section: 1
@@ -35,13 +33,13 @@ print "********* Part II *************"
 a = (3*5) / (2+3)
 b = math.sqrt(7+9)*2
 c = (4-7)**3
-#d =(7+9)**2*0.5 
-#g = 
+d =((7+9)**0.5)*2 
+g =(-19+100)**0.25 
 h = 6 % 4
 
 
 
-print a,b,c,h
+print a,b,c,d,g,h
 
 print "********* Part III *************"
 a = (2+5)**8
@@ -50,6 +48,15 @@ print a,b
 
 
 
-print "********** Exercise 1.5 **********"
 
-print "Not implemented" # Delete this line when you write your code!
+
+print "********** Exercise 1.5 **********"
+name = raw_input("Enter your first  name:")
+
+lname =  raw_input("Enter your last  name:")
+print "Enter your date of birth:"
+mo = raw_input(" Month?")
+day = raw_input ("Day?")
+year = raw_input("Year?")
+print name,lname,"was born on",mo+",", day+",",year
+
