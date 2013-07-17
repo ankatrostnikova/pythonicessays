@@ -1,4 +1,4 @@
- #!/usr/bin/python
+#!/usr/bin/python
 # Name: Anna Trostnikova
 # Section: 2
 # Date:12/07/2013
