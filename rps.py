@@ -1,15 +1,14 @@
 #!/usr/bin/python
 # Name: Anna Trostnikova
 # Section: 2
-# Date:12/07/2013
+# Date:17/07/2013
 #Rock, paper, scissors game.
 
 Player1  = raw_input("Player1?")
 
 Player2 = raw_input('Player2 ?')
-
-#Player1.lower()
-#Player2.lower()
+Player1 = Player1.lower()
+Player2 =  Player2.lower()
 
 if Player1 == "rock" and Player2 =="rock":
    print "Tie."
