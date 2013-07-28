@@ -34,4 +34,15 @@ else:
    for x in range(0,exp):
       c = c*base
 
-   print c 
+   print c
+
+
+#Asks user to enter an even number, if an odd number is entered prints a witty message and makes user enter another number. Runs till the even number is entered#
+num = raw_input("Enter a number, divisable by two ")
+num = int(num)
+while num%2!= 0:
+   print "Learn your math! This is not a number, divisable by two."
+   num = raw_input("Enter another number ")
+   num = int(num)
+print "You are clever. This is an even number. Congratulations"
+
